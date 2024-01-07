@@ -3,21 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>테스트용 페이지</title>
+    <title>큐젠 안내</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>환영합니다!</h1>
-    </header>
 
-    <main>
-        <p>이것은 테스트용 페이지입니다. 여기에 여러 내용을 추가하여 테스트할 수 있습니다.</p>
-    </main>
+    <section class="notice">
+        <div class="page-title">
+              <div class="container">
+                  <h3>도움말</h3>
+              </div>
+          </div>
+      
+          <!-- board seach area -->
+        <!--
+          <div id="board-search">
+              <div class="container">
+                  <div class="search-window">
+                      <form action="">
+                          <div class="search-wrap">
+                              <label for="search" class="blind">공지사항 내용 검색</label>
+                              <input id="search" type="search" name="" placeholder="검색어를 입력해주세요." value="">
+                              <button type="submit" class="btn btn-dark">검색</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+        -->
 
-    <footer>
-        <p>&copy; 2024 테스트 페이지</p>
-    </footer>
-
+        <!-- board list area -->
+          <div id="board-list">
+              <div class="container">
+                  <table class="board-table">
+                      <thead>
+                      <tr>
+                          <th scope="col" class="th-num">번호</th>
+                          <th scope="col" class="th-title">제목</th>
+                          <th scope="col" class="th-date">등록일</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+      
+                      <tr>
+                          <td>2</td>
+                          <th><a href="post.html">[공지사항] 자주 묻는 질문</a></th>
+                          <td>2024.01.07</td>
+                      </tr>
+      
+                      <tr>
+                          <td>1</td>
+                          <th><a href="post.html">[공지사항] 사용방법</a></th>
+                          <td>2024.01.07</td>
+                      </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      
+      </section>
 </body>
 </html>
